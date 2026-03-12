@@ -8,9 +8,9 @@ export const product: Product = {
   
   images: [
     "/sweat.png",
-    "/sweatshirt.png",
+    "/sec.png",
+    "/third.png",
     "/sweat.png",
-    "/sweatshirt.png",
   ],
   rating: 5,
   reviews: 12,

@@ -177,11 +177,12 @@ export default function ProductInfo({ product }: { product: Product }) {
       </div>
 
       {/* PAYMENT METHODS */}
-      <div className="flex justify-center gap-2">
-        <img src="/payments/visa.png" className="h-6"/>
-        <img src="/payments/mastercard.png" className="h-6"/>
-        <img src="/payments/amex.png" className="h-6"/>
-        <img src="/payments/paypal.png" className="h-6"/>
+      <div className="flex justify-center gap-4">
+        <img src="/amerx.png" className="h-6 border border-gray-400"/>
+        <img src="/visa.png" className="h-6 border border-gray-400"/>
+        <img src="/masterc.png" className="h-6 border border-gray-400"/>
+        <img src="/appl.png" className="h-6 border border-gray-400"/>
+        <img src="/gpay.png" className="h-6 border border-gray-400"/>
       </div>
 
     </div>

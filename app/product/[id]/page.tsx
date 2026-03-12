@@ -12,7 +12,7 @@ import { product } from "../../data/product"
 export default function ProductPage() {
 
   return (
-    <div className="max-w-[1440px] mx-auto px-33.75 py-18 space-y-16 bg-white">
+    <div className="max-w-360 mx-auto px-33.75 py-18 space-y-16 bg-white">
 
       {/* TOP SECTION */}
       <div className="grid md:grid-cols-2 gap-12">

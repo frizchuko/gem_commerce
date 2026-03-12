@@ -6,7 +6,7 @@ export default function NutritionSection() {
     <section className="bg-gray-50 py-16">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
 
-        <div className="h-[570px] w-[570px]">
+        <div className="h-[570px] w-full md:w-[570px]">
           <h3 className="text-[36px] font-semibold text-[#161723] mb-4">
             Nutrition is the foundation for <br/> longer, healthier lives in dogs.
           </h3>
@@ -61,13 +61,13 @@ export default function NutritionSection() {
 
           <Button
             type="primary"
-            className="bg-[#EE6F4B]! border-none! px-10! py-3! h-12! w-134.5! rounded-md text-[16px] font-semibold text-white mt-10"
+            className="bg-[#EE6F4B]! border-none! px-10! py-3! h-12! w-full md:w-134.5! rounded-md text-[16px] font-semibold text-white mt-10"
           >
             Give your furry friend the gift of wholesome nutrition
           </Button>
         </div>
 
-        <div className="relative w-[570px] h-[570px]">
+        <div className="relative w-full md:w-[570px] h-[570px]">
           <Image
             src="/nurt.png"
             alt="dog product"

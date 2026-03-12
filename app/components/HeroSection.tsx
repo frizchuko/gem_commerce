@@ -30,13 +30,13 @@ export default function HeroSection() {
           What makes us different<br />makes them stronger
         </h2>
 
-        <div className="relative flex justify-center items-center">
+        <div className="relative flex flex-col md:flex-row justify-center items-center">
 
           {/* Center circle */}
           <div className="relative flex justify-center items-center">
 
   {/* Center circle */}
-  <div className="relative w-[370px] h-[370px] rounded-full overflow-hidden shadow-lg">
+  <div className="relative w-[260px] h-[260px] md:w-[370px] md:h-[370px] rounded-full overflow-hidden shadow-lg">
 
     {/* Left half */}
     <div className="absolute left-0 top-0 w-1/2 h-full overflow-hidden">
@@ -63,7 +63,7 @@ export default function HeroSection() {
 </div>
 
           {/* Left Top Feature */}
-          <div className="absolute left-0 top-0 text-start">
+          <div className="relative md:absolute md:left-0 md:top-0 text-start mt-8 md:mt-0">
             <div className="flex items-start gap-3 justify-end">
             <div className="w-14 h-14 bg-[#DCF9CA] rounded-full flex items-center justify-center shrink-0"><Image src="/realfood.png" alt="food doddle" width={36} height={36}/></div>
               <div className="flex flex-col gap-2">
@@ -77,7 +77,7 @@ export default function HeroSection() {
           </div>
 
         {/* Left Bottom */}
-<div className="absolute left-2 bottom-4 text-start">
+<div className="relative md:absolute md:left-2 md:bottom-4 text-start mt-6 md:mt-0">
   <div className="flex items-start gap-2 justify-end">
     
     <div className="w-14 h-14 bg-[#F8F0D6] rounded-full flex items-center justify-center shrink-0">
@@ -98,7 +98,7 @@ export default function HeroSection() {
 
 
 {/* Right Top */}
-<div className="absolute right-2 top-4  text-left">
+<div className="relative md:absolute md:right-2 md:top-4 text-left mt-6 md:mt-0">
   <div className="flex items-start gap-2">
 
     <div className="w-14 h-14 bg-[#C8F2E7] rounded-full flex items-center justify-center shrink-0">
@@ -119,7 +119,7 @@ export default function HeroSection() {
 
 
 {/* Right Bottom */}
-<div className="absolute right-2 bottom-4  text-left">
+<div className="relative md:absolute md:right-2 md:bottom-4 text-left mt-6 md:mt-0">
   <div className="flex items-start gap-2">
 
     <div className="w-14 h-14 bg-[#F7CABD] rounded-full flex items-center justify-center shrink-0">
@@ -145,12 +145,12 @@ export default function HeroSection() {
         <div className="mt-16 ">
           <Button
             type="primary"
-            className="bg-[#EE6F4B]! border-none! px-10! py-3! h-12! w-115.5 rounded-md"
+            className="bg-[#EE6F4B]! border-none! px-10! py-3! h-12! w-full md:w-115.5 rounded-md"
           >
             Get your dog's healthy meal today
           </Button>
 
-          <div className="flex gap-12 mx-auto mt-1.5 w-115.5">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4 mx-auto mt-3 w-full md:w-115.5">
             <div className="flex gap-2 mt-0.5">
             <IoShieldCheckmarkOutline size={16} className="text-[#424153]"/>
             <p className="text-xs text-[#424153] ">

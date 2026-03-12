@@ -18,7 +18,7 @@ export default function ProductFeatures() {
   ]
 
   return (
-    <div className="grid md:grid-cols-3 gap-10 text-center">
+    <div className="grid md:grid-cols-3 gap-10 my-8 text-center">
 
       {features.map((f, i) => (
         <div key={i} className="space-y-2">
